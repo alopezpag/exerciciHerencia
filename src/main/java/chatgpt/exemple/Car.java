@@ -4,7 +4,6 @@ public class Car extends Vehicle {
     private int numDoors;
     private String combustibleType;
 
-
     public Car(String brand, String model, int year, double price, int numDoors, String combustibleType) {
         super(brand, model, year, price);
         setNumDoors(numDoors);
